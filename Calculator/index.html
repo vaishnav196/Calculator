@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/light.css">
+    <script src="https://kit.fontawesome.com/388622eb2b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class=" container row">
+        <div class="calculator">
+            <div class="keys">
+                <h1>Calculator By NJ <i class="fa-solid fa-moon" style="color: #070707; cursor: pointer;"></i></h1>
+                <div class="1">
+
+                    <input id="res" class="result" type="text" placeholder="Result">
+                    <input class="btn btn-c" type="button" value="C">
+                </div>
+                <div class="row-1">
+                    <input class="btn" type="button" value="1" onclick="val_1();">
+                    <input class="btn" type="button" value="2" onclick="val_2();">
+                    <input class="btn " type="button" value="3" onclick="val_3();">
+                    <input class="btn" type="button" value="+" onclick="val_p();">
+                </div>
+                <div class="row-2">
+                    <input class="btn" type="button" value="4" onclick="val_4();">
+                    <input class="btn" type="button" value="5" onclick="val_5();">
+                    <input class="btn" type="button" value="6" onclick="val_6();">
+                    <input class="btn" type="button" value="-" onclick="val_s();">
+                </div>
+                <div class="row-3">
+                    <input class="btn" type="button" value="7" onclick="val_7();">
+                    <input class="btn" type="button" value="8" onclick="val_8();">
+                    <input class="btn" type="button" value="9" onclick="val_9();">
+                    <input class="btn" type="button" value="x" onclick="val_m();">
+                </div>
+                <div class="row-4">
+                    <input class="btn" type="button" value="/" onclick="val_d();">
+                    <input class="btn" type="button" value="0" onclick="val_0();">
+                    <input class="btn" type="button" value="." onclick="val_dot();">
+                    <input class="btn" type="button" value="=" onclick="calculate();">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
