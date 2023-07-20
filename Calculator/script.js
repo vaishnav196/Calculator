@@ -104,9 +104,7 @@ document.getElementById("display").value=res;
      
 
        })
-function keypress(){
 
-}
 function calculator(){
 
 
