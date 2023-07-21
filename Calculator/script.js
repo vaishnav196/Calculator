@@ -4,13 +4,10 @@ let res = document.querySelector(".result").value;
 // res=''
 
 let keys = document.querySelectorAll(".btn");
-// for( i=0; i <keys.length; i++){
- 
-// document.querySelectorAll('.btn').addEventListener()
-    // console.log(keys[i].value);
-// }
+
+
 document.addEventListener('click',(keypress)=>{
-    // console.log("key is press");
+  
     n=keypress.target.value;
     if(n=="1"){
 console.log("one is pressed");
@@ -110,13 +107,6 @@ function calculator(){
 
 
 
-    // Array.from.forEach((btn)=>{
-    //     btn.addEventListener('click',(e)=> {
-    //       console.log(e.target);
-    //       res =res + e.target;
-    //       document.querySelector(".result").value=res;
-    //     })
-    // })
     
 }
 
