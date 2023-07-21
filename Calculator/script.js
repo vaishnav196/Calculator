@@ -114,5 +114,19 @@ function calculator(){
   
 
     
+    //  let display =  document.getElementById("text");
+    //  display = "";
+    //  let keys = document.querySelectorAll(".button");
+    //  console.log(keys);
+    //  Array.from(keys).forEach((el) =>{
+    //   el.addEventListener('click',(i) =>{
+    //         console.log(i.target.value);
+    //         num = i.target.value;
+    //         display = display + num;
+    //         document.getElementById("text").value = display;
+
+    //   });
+    //  });
+
 
 
