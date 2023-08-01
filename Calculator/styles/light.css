@@ -64,3 +64,18 @@ h1{
     border: none;
     background-color: rgb(255, 255, 255);
 }
+.equal{
+    width: 90px;
+    height: 90px;
+    border-radius: 25rem;
+    font-size: 1.4rem;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 100px rgb(197, 255, 245);
+}
+.btn:hover{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
