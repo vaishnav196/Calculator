@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles/light.css">
+    <link rel="stylesheet" href="styles/light.css" id="theme">
     <script src="https://kit.fontawesome.com/388622eb2b.js" crossorigin="anonymous"></script>
    
 
@@ -15,10 +15,10 @@
     <div class=" container row">
         <div class="calculator">
             <div class="keys">
-                <h1>Calculator By NJ <a href="#" class="theme"><i class="fa-solid fa-moon" id="moon" style="color: #070707; cursor: pointer;"></i></a></h1>
+                <h1 id="headline">Calculator By VG<i src="styles/light.css" class="fa-solid fa-moon" id="moon"  onclick="changeTheme()"  style="color: #070707; cursor: pointer;"></i></h1>
                 <div class="input">
 
-                    <input id="display" class="result" type="text" placeholder="Result">
+                    <input id="display" class="result" type="text" placeholder="Result" readonly>
                     <input class="btn" type="button" value="C">
                 </div>
 
@@ -47,7 +47,9 @@
                     <button class="btn" value="0">0</button>
                     <button class="btn" value=".">.</button>
                     <button class="btn" value="=" id="equal" >=</button>
+                   
                 </div>
+              
 
                
                 
